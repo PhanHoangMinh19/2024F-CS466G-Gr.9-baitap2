@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #6a11cb, #2575fc); /* Màu nền gradient */
+            height: 100vh; /* Chiều cao toàn màn hình */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            text-align: center;
+            background: white; /* Ô nền trắng */
+            padding: 40px 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Hiệu ứng đổ bóng */
+            width: 300px;
+        }
+        h1 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px 0;
+            font-size: 16px;
+            color: white;
+            background: linear-gradient(135deg, #6a11cb, #2575fc); /* Nền nút */
+            text-decoration: none;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            width: 100%; /* Để nút rộng bằng ô trắng */
+            max-width: 220px;
+        }
+        .button:hover {
+            background: linear-gradient(135deg, #2575fc, #6a11cb); /* Đảo gradient khi hover */
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome</h1>
+        <div class="button-container">
+            <!-- Nút Đăng nhập -->
+            <a href="login" class="button">Sign in</a>
+            <!-- Nút Đăng ký -->
+            <a href="signup" class="button">Sign up</a>
+        </div>
+    </div>
+</body>
+</html>

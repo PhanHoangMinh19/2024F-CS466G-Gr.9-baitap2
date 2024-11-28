@@ -1,0 +1,132 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff); /* Gradient màu xanh nhạt và trắng */
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Tabbar Styles */
+.tabbar {
+    width: 100%;
+    background-color: #4e4e4e; /* Màu xám đậm */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Container */
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* Button Styles */
+.button-container {
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #3498db; /* Màu xanh */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Form Container Styles */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.form-container label {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.form-container input {
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #3498db; /* Màu xanh */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #2980b9;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+label {
+    font-size: 20px; /* Điều chỉnh kích thước theo nhu cầu */
+}
+input {
+    font-size: 18px; /* Điều chỉnh kích thước văn bản trong ô nhập liệu */
+    padding: 10px; /* Thêm khoảng cách bên trong ô nhập liệu */ }
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+select {
+    font-size: 16px; /* Thay đổi kích thước chữ */
+    padding: 10px; /* Thêm khoảng cách bên trong */
+    width: 200px; /* Thay đổi chiều rộng của dropdown */
+}
+.logout-button {
+    position: absolute; /* Đặt vị trí tuyệt đối */
+    left: 325px; /* Cách mép trái màn hình 10px (bạn có thể chỉnh lại giá trị này) */
+    top: 128px; /* Cách mép trên màn hình 10px */
+}

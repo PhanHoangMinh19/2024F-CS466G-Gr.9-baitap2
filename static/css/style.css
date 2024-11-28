@@ -1,0 +1,82 @@
+/* Đặt toàn cục cho trang */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Nền gradient */
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh; /* Chiều cao toàn màn hình */
+    color: #ffffff;
+}
+
+/* Container chính */
+.container {
+    background: #ffffff; /* Nền trắng */
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Bóng đổ mềm mại */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #333; /* Màu chữ chính */
+}
+
+/* Tiêu đề */
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #6a11cb; /* Màu chữ gradient chính */
+    text-transform: uppercase;
+}
+
+/* Các nhãn và ô nhập liệu */
+form label {
+    display: block;
+    font-size: 1rem;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Nút bấm */
+button[type="submit"] {
+    width: 100%;
+    background: linear-gradient(90deg, #6a11cb, #2575fc); /* Gradient cho nút */
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #2575fc, #6a11cb); /* Đổi gradient khi hover */
+    transform: translateY(-2px); /* Hiệu ứng nổi */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Bóng đổ khi hover */
+}
+
+/* Liên kết */
+form a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+form a:hover {
+    text-decoration: underline;
+}
+
+
